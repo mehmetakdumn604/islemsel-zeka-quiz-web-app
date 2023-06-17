@@ -1,0 +1,170 @@
+
+[
+    {
+        "question": "Hangi iki kelimeler arasındaki ilişki 'Aunt - Uncle' ve 'Woman - Man' kelimeleri arasındaki ilişkiye benzer?",
+        "options": ["King - Queen", "Human - Animal", "Ethics - Queen", "Male - Female", "Teacher - Student"],
+        "answer": "King - Queen"
+    },
+    {
+        "question": "Hangi teknoloji, makine öğrenmesini hızlandırmak için NVIDIA Pascal GPU mimarisini kullanıyor?",
+        "options": ["Google Trends", "Quantum Artificial Intelligence Lab", "DeepMind", "NVIDIA Pascal", "Microsoft Azure"],
+        "answer": "NVIDIA Pascal"
+    },
+    {
+        "question": "Hangi teknoloji, 'One net to rule them all' olarak da bilinen Big Bang ile başladı?",
+        "options": ["Google Trends", "Deep Learning", "Quantum Artificial Intelligence Lab", "Machine Learning", "IBM Watson"],
+        "answer": "Deep Learning"
+    },
+    {
+        "question": "Hangi teknoloji, 'feature engineering' adı verilen bir süreci ortadan kaldırarak geleneksel öğrenme algoritmalarından farklıdır?",
+        "options": ["Deep Learning", "Machine Learning", "Google Trends", "Quantum Artificial Intelligence Lab", "IBM Watson"],
+        "answer": "Deep Learning"
+    },
+    {
+        "question": "Hangi teknoloji, 'Reinforcement Learning' kullanarak Atari oyunlarında insanları yenmeyi başardı?",
+        "options": ["DeepMind", "Google Trends", "Quantum Artificial Intelligence Lab", "NVIDIA Pascal", "IBM Watson"],
+        "answer": "DeepMind"
+    },
+    {
+        "question": "Yapay zeka ile derin öğrenme arasındaki fark nedir?",
+        "options": ["Yapay zeka, derin öğrenmenin bir alt kümesidir", "Derin öğrenme, yapay zekanın bir alt kümesidir", "İkisi de aynı şeydir", "Yukarıdakilerin hiçbiri", "Yapay zeka ve derin öğrenme arasında bir fark yoktur"],
+        "answer": "Derin öğrenme, yapay zekanın bir alt kümesidir"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi derin öğrenmenin bir uygulamasıdır?",
+        "options": ["E-posta spam dedektörü", "Konuşma tanıma", "Benzer belgeleri kümeleme", "Yukarıdakilerin tümü", "Makalelerin otomatik özeti"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Hangi şirket Derin Q-Öğrenmeyi geliştirdi?",
+        "options": ["Google", "Facebook", "DeepMind", "IBM", "Microsoft"],
+        "answer": "DeepMind"
+    },
+    {
+        "question": "Yapay zekada sürü zeka ilkelerini kullanmanın ana avantajı nedir?",
+        "options": ["Bireysel ajanların merkezi kontrolünü sağlar", "Akıllı küresel davranışın ortaya çıkmasına yol açar", "Daha az hesaplama gücü gerektirir", "Yukarıdakilerin hiçbiri", "Daha hızlı öğrenme süreçleri"],
+        "answer": "Akıllı küresel davranışın ortaya çıkmasına yol açar"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi gözetimli öğrenmenin bir örneğidir?",
+        "options": ["Benzer belgeleri kümeleme", "Etiketlenmemiş verilerdeki kalıpları keşfetme", "Kazanma veya kaybetme yoluyla satranç öğrenme", "Zaten etiketlenmiş e-postaların eğitim seti ile e-posta spam dedektörü", "Bilgisayarlı görü ile yüz tanıma"],
+        "answer": "Zaten etiketlenmiş e-postaların eğitim seti ile e-posta spam dedektörü"
+    },
+    {
+        "question": "Derin öğrenme kullanmanın ana gerekliliği nedir?",
+        "options": ["Kaliteli büyük veri seti", "Ölçülebilir ve tanımlanabilir hedefler", "Yeterli hesaplama gücü", "Yukarıdakilerin tümü", "Ayrıntılı ve net bir proje planı"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "D-Wave'in kurucu ortağı kimdir?",
+        "options": ["Geoffrey Hinton", "Yann LeCun", "Andrew Ng", "Eric Ladizinsky", "Elon Musk"],
+        "answer": "Eric Ladizinsky"
+    },
+    {
+        "question": "Derin öğrenmenin ana sınırlaması nedir?",
+        "options": ["Büyük veri setlerinden öğrenemez", "Öğrenebileceği şeyin teorik sınırlamaları vardır", "Daha az hesaplama gücü gerektirir", "Yukarıdakilerin hiçbiri", "Modelin karmaşıklığı ve anlaşılması zor olması"],
+        "answer": "Öğrenebileceği şeyin teorik sınırlamaları vardır"
+    },
+    {
+        "question": "Hangi aşağıdaki örnek, sürü zekanın bir örneğidir?",
+        "options": ["Karınca kolonileri", "Kuş sürüsü", "Bakteri büyümesi", "Yukarıdakilerin tümü", "Akıllı ev sistemleri"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi makine öğrenmesinde bir öğrenme yaklaşımıdır?",
+        "options": ["Gözetimli öğrenme", "Gözetimsiz öğrenme", "Takviyeli öğrenme", "Yukarıdakilerin tümü", "Tabanlı öğrenme"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi derin öğrenme araştırmasının bir süperstarıdır?",
+        "options": ["Geoffrey Hinton", "Yann LeCun", "Andrew Ng", "Yukarıdakilerin tümü", "Ray Kurzweil"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi derin öğrenmenin kısa bir tarihidir?",
+        "options": ["1974'te geri yayılım", "1995'te El Yazısı Tanıma için Konvolüsyonel Sinir Ağları", "2006'da Kısıtlı Boltzmann Makinesi", "Yukarıdakilerin tümü", "2010'da Derin Öğrenme Devrimi"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Aşağıdakilerden hangisi doğal dil işlemenin bir örneğidir?",
+        "options": ["Word2Vec", "Düşünce vektörleri", "Sinirsel makine çevirisi", "Yukarıdakilerin tümü", "Sesli asistanlar"],
+        "answer": "Yukarıdakilerin tümü"
+    },
+    {
+        "question": "Derin öğrenmenin ana avantajı nedir?",
+        "options": ["Her türlü problemi çözebilen sihirli bir araçtır", "İstatistiklere dayanır ve kalıpları etkin bir şekilde öğrenebilir", "İnsan yaratıcılığı ve empatiyi ikame edebilir", "Yukarıdakilerin hiçbiri", "Otomatik özellik çıkarımı sağlar"],
+        "answer": "İstatistiklere dayanır ve kalıpları etkin bir şekilde öğrenebilir"
+    },
+    {
+        "question": "Aşağıdakilerden öğrenme yöntemlerinden hangisi Supervised Learning değildir?",
+        "options": [
+            "Decision Tree Learning",
+            "K-Nearest Neighbor - KNN", 
+            "Linear Regression", 
+            "Logistic Regression",
+            "K-Means Clustering"],
+        "answer": "K-Means Clustering"
+    },
+    
+        {
+            "question": "Derin öğrenme nedir?",
+            "options": [
+                "Makine öğrenme yöntemlerinden biridir",
+                "İnsanların düşünme ve öğrenme yeteneklerini taklit eden bir yapay zeka yaklaşımıdır",
+                "Sadece gözetimsiz öğrenme algoritmalarını içeren bir öğrenme paradigmasıdır",
+                "Sadece doğal dil işleme problemleri için kullanılan bir yaklaşımdır"
+            ],
+            "answer": "İnsanların düşünme ve öğrenme yeteneklerini taklit eden bir yapay zeka yaklaşımıdır"
+        },
+        {
+            "question": "Derin öğrenme modellerinin eğitimi genellikle neye dayanır?",
+            "options": [
+                "İnsan uzmanlar tarafından belirlenen kurallara",
+                "Büyük ve etiketlenmiş veri setlerine",
+                "Rastgele parametre denemelerine",
+                "Sadece küçük veri setlerine"
+            ],
+            "answer": "Büyük ve etiketlenmiş veri setlerine"
+        },
+        {
+            "question": "Derin öğrenme yöntemlerinin hangi alanlarda yaygın olarak kullanıldığı söylenebilir?",
+            "options": [
+                "Görüntü ve video işleme",
+                "Doğal dil işleme",
+                "Oyun oynama ve strateji",
+                "Tümü yukarıdakiler"
+            ],
+            "answer": "Tümü yukarıdakiler"
+        },
+        {
+            "question": "Sürü zekası nedir?",
+            "options": [
+                "Bir sürü canlı organizmanın toplu davranışlarının incelenmesidir",
+                "Küçük robotların grup halinde çalışarak karmaşık görevleri gerçekleştirmesi",
+                "Bir yapay zeka yaklaşımıdır",
+                "Yalnızca doğada bulunan bir olgudur"
+            ],
+            "answer": "Küçük robotların grup halinde çalışarak karmaşık görevleri gerçekleştirmesi"
+        },
+        {
+            "question": "Sürü zekası hangi alanlarda uygulanabilir?",
+            "options": [
+                "Robotik",
+                "Trafik yönetimi",
+                "Optimizasyon problemleri",
+                "Tümü yukarıdakiler"
+            ],
+            "answer": "Tümü yukarıdakiler"
+        },
+        {
+            "question": "Sürü zekası temel olarak hangi prensiplere dayanır?",
+            "options": [
+                "Yerel etkileşim ve global uygulama",
+                "Merkezi kontrol ve yönetim",
+                "Bireysel öğrenme ve gelişim",
+                "Yalnızca gözetimli öğrenme algoritmalarına"
+            ],
+            "answer": "Yerel etkileşim ve global uygulama"
+        }
+        
+    ]

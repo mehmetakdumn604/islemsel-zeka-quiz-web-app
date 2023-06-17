@@ -17,7 +17,6 @@ class MainView extends StatelessWidget {
           children: [
             CustomButton(
               onPressed: () {
-                
                 context.navigateTo(const QuestionView());
               },
               height: 100,

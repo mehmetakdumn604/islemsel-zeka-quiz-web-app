@@ -1,10 +1,8 @@
-
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-import '../../controllers/question_controller.dart';
 import '../../models/question_model.dart';
-import '../../shared/widgets/custom_button.dart';
+import 'components/option_card.dart';
+import 'components/question_card.dart';
 
 class QuestionPage extends StatelessWidget {
   final Question question;
@@ -30,7 +28,7 @@ class QuestionPage extends StatelessWidget {
       appBar: AppBar(
         automaticallyImplyLeading: currentQuestion != 0 ? false : true,
         backgroundColor: Colors.purple.shade200,
-        title: Text('Question ${currentQuestion + 1} of $totalQuestions'),
+        title: Text('Soru ${currentQuestion + 1} / $totalQuestions'),
       ),
       body: SizedBox(
         width: MediaQuery.of(context).size.width,
@@ -39,85 +37,15 @@ class QuestionPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Padding(
-                padding: const EdgeInsets.all(16.0),
-                child: Container(
-                  padding: const EdgeInsets.all(16.0),
-                  constraints: BoxConstraints(
-                    minWidth: MediaQuery.of(context).size.width * 0.8,
-                    minHeight: MediaQuery.of(context).size.height * 0.3,
-                  ),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    color: const Color(0xff6750A4),
-                  ),
-                  child: Center(
-                    child: Text(
-                      question.question,
-                      style:
-                          Theme.of(context).textTheme.headlineMedium?.copyWith(color: Colors.white),
-                      textAlign: TextAlign.center,
-                    ),
-                  ),
-                ),
-              ),
+              QuestionCard(question: question),
+              // can used to be ListView.builder but there aren't many options so I used List.generate
               ...List.generate(question.options.length, (index) {
-                String option = question.options[index];
-
-                return GestureDetector(
-                  onTap: () {
-                    onOptionSelected(index);
-                  },
-                  child: Consumer<QuestionController>(
-                      builder: (BuildContext context, QuestionController controller, _) {
-                    return Container(
-                      margin: const EdgeInsets.all(8.0),
-                      padding: const EdgeInsets.all(16.0),
-                      width: MediaQuery.of(context).size.width * 0.6,
-                      decoration: BoxDecoration(
-                        color: question.getColor(index),
-                        borderRadius: BorderRadius.circular(12),
-                        border: Border.all(color: Colors.black),
-                      ),
-                      child: SizedBox(
-                        width: MediaQuery.of(context).size.width * 0.6,
-                        child: Row(
-                          children: [
-                            CircleAvatar(
-                              child: Text(_optionNames[index]),
-                            ),
-                            const SizedBox(width: 10),
-                            SizedBox(
-                              width: MediaQuery.of(context).size.width * 0.4,
-                              child: Text(
-                                option,
-                                maxLines: 2,
-                                style:
-                                    Theme.of(context).textTheme.bodyLarge?.copyWith(fontSize: 20),
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    );
-                  }),
+                return OptionCard(
+                  onOptionSelected: onOptionSelected,
+                  question: question,
+                  index: index,
                 );
               }),
-              ButtonBar(
-                alignment: MainAxisAlignment.spaceEvenly,
-                children: [
-                  CustomButton(
-                    text: 'Previous',
-                    color: Colors.orange.shade700,
-                    onPressed: () => onPreviousPressed(),
-                  ),
-                  CustomButton(
-                    text: 'Next',
-                    color: Colors.orange.shade700,
-                    onPressed: () => onNextPressed(),
-                  ),
-                ],
-              ),
             ],
           ),
         ),
@@ -125,12 +53,3 @@ class QuestionPage extends StatelessWidget {
     );
   }
 }
-
-List _optionNames = ["A", "B", "C", "D", "E"];
-List<Color> coolColors = [
-  Colors.limeAccent,
-  Colors.cyanAccent,
-  Colors.pinkAccent,
-  Colors.amberAccent,
-  Colors.purpleAccent,
-];

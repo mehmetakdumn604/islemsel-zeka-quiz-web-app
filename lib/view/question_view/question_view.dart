@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:islemsel_zeka_quiz_project/core/extensions/widget_extensions.dart';
 import 'package:islemsel_zeka_quiz_project/view/question_view/question_widget.dart';

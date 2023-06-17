@@ -81,7 +81,7 @@ class QuestionController extends ChangeNotifier {
                 borderRadius: BorderRadius.circular(12),
               ),
               title: Text(
-                "Congratulations!",
+                "Tebrikler!",
                 style: Theme.of(context).textTheme.headlineMedium,
               ),
               content: Text(
